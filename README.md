@@ -39,6 +39,7 @@
 |更新时间|update_time|timestamp||
 
 * 3、角色表（t_role）
+
 |Name|Code|Data Typ|Desc|
 |--------|:--------:|--------|--------:|
 |主键|role_id|bigint|主键，自增长|
@@ -48,6 +49,7 @@
 |更新时间|update_time|timestamp||
 
 * 4、用户角色关系表（t_user_role_rela）
+
 |Name|Code|Data Typ|Desc|
 |--------|:--------:|--------|--------:|
 |主键|rela_id|bigint|主键，自增长|
