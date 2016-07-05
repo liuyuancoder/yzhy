@@ -102,6 +102,7 @@
 |创建时间|create_time|timestamp||
 |更新时间|update_time|timestamp||
 |所属角色|role_id|bigint|拥有管理权的角色|
+|显示顺序|dis_order|bigint||
 
 * 8、单位与模块关系表（t_enterprise_module_rela）
 
