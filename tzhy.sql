@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016-07-05 09:53:36
+-- Generation Time: 2016-07-05 12:00:12
 -- 服务器版本： 5.6.17
 -- PHP Version: 5.5.12
 
@@ -82,13 +82,14 @@ CREATE TABLE IF NOT EXISTS `t_enterprise_module_rela` (
 --
 
 CREATE TABLE IF NOT EXISTS `t_module` (
-  `moudle_id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `module_id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `module_name` varchar(50) NOT NULL COMMENT '名称',
   `create_time` timestamp NOT NULL COMMENT '创建时间',
   `update_time` timestamp NOT NULL COMMENT '更新时间',
   `role_id` bigint(20) NOT NULL COMMENT '本模块所属角色',
-  PRIMARY KEY (`moudle_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='模块表' AUTO_INCREMENT=1 ;
+  `disorder` bigint(20) NOT NULL COMMENT '显示顺序',
+  PRIMARY KEY (`module_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='模块表' AUTO_INCREMENT=11 ;
 
 -- --------------------------------------------------------
 
