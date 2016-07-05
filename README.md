@@ -93,17 +93,17 @@
 |纠正人邮箱|corr_email|varchar||
 
 
-* 7、模块表（t_moudle）
+* 7、模块表（t_module）
 
 |Name|Code|Data Typ|Desc|
 |--------|:--------:|--------|--------:|
 |主键|module_id|bigint|主键，自增长|
-|名称|moudle_name|varchar||
+|名称|module_name|varchar||
 |创建时间|create_time|timestamp||
 |更新时间|update_time|timestamp||
 |所属角色|role_id|bigint|拥有管理权的角色|
 
-* 8、单位与模块关系表（t_enterprise_moudle_rela）
+* 8、单位与模块关系表（t_enterprise_module_rela）
 
 |Name|Code|Data Typ|Desc|
 |--------|:--------:|--------|--------:|
