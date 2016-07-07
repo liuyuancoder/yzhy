@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016-07-05 12:00:12
+-- Generation Time: 2016-07-07 05:29:00
 -- 服务器版本： 5.6.17
 -- PHP Version: 5.5.12
 
@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS `t_enterprise_info` (
   `create_time` timestamp NOT NULL COMMENT '创建时间',
   `update_time` timestamp NOT NULL COMMENT '更新时间',
   `status` char(1) NOT NULL COMMENT '0：待审核；1：正常',
+  `disorder` int(11) NOT NULL COMMENT '显示顺序',
   PRIMARY KEY (`enterprise_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='单位信息表' AUTO_INCREMENT=1 ;
 
@@ -87,7 +88,7 @@ CREATE TABLE IF NOT EXISTS `t_module` (
   `create_time` timestamp NOT NULL COMMENT '创建时间',
   `update_time` timestamp NOT NULL COMMENT '更新时间',
   `role_id` bigint(20) NOT NULL COMMENT '本模块所属角色',
-  `disorder` bigint(20) NOT NULL COMMENT '显示顺序',
+  `disorder` int(11) NOT NULL COMMENT '显示顺序',
   PRIMARY KEY (`module_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='模块表' AUTO_INCREMENT=11 ;
 

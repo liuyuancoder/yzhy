@@ -70,6 +70,7 @@
 |创建时间|create_time|timestamp||
 |更新时间|update_time|timestamp||
 |状态|status|char|若为0，需要管理员审核；1：表示正常状态|
+|显示顺序|disorder|int||
 
 * 6、单位信息纠正表（t_enterprise_info_correct）
 
@@ -102,7 +103,7 @@
 |创建时间|create_time|timestamp||
 |更新时间|update_time|timestamp||
 |所属角色|role_id|bigint|拥有管理权的角色|
-|显示顺序|dis_order|bigint||
+|显示顺序|disorder|int||
 
 * 8、单位与模块关系表（t_enterprise_module_rela）
 
