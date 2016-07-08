@@ -1,5 +1,14 @@
 ﻿var indexdata = 
 [
+    { text: '单位添加',isexpand:false, children: [ 
+		{url:"demos/base/resizable.htm",text:"批量导入" },
+		{url:"demos/base/drag.htm",text:"添加"},
+	]
+    },
+]
+/*******以下是原框架数组***********/
+/*var indexdata = 
+[
     { text: '基础',isexpand:false, children: [ 
 		{url:"demos/base/resizable.htm",text:"改变大小" },
 		{url:"demos/base/drag.htm",text:"拖动"},
@@ -312,4 +321,4 @@ var indexdata2 =
         }
     ]
     }
-];
+];*/
