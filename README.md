@@ -110,7 +110,7 @@
 |Name|Code|Data Typ|Desc|
 |--------|:--------:|--------|--------:|
 |主键|rela_id|bigint|主键，自增长|
-|单位id|enterprise_name|bigint||
+|单位id|enterprise_id|bigint||
 |模块id|module_id|igint||
 |创建时间|create_time|timestamp||
 |更新时间|update_time|timestamp||
