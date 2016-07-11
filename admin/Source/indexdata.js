@@ -4,7 +4,7 @@
 		{url:"demos/base/resizable.htm",text:"批量导入" },
 		{url:"demos/base/drag.htm",text:"添加"},
 	]
-    },
+    }
 ]
 /*******以下是原框架数组***********/
 /*var indexdata = 
